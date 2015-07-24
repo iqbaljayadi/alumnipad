@@ -1,3 +1,0 @@
-# alumnipad
-
-wkwk
