@@ -1,0 +1,425 @@
+/*
+
+Theme Name: X Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+a:hover, a:focus {
+  text-decoration: none !important;
+}
+a:hover { color:#DD0000;}
+
+[class*="page-template-template-blank"] .entry-content {
+  margin-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container {
+	max-width: 100%;
+}
+.vc_cta3-container {
+  margin-bottom: 5px !important;
+  margin-top: 20px !important;
+}
+/*list-post-home*/
+.post-list-home ul {
+	list-style: none;
+}
+
+.img-list img {
+	width: 100%;
+}
+
+.post .entry-thumb img {
+	margin-bottom: 30px;}
+/*=================menu-utama=================*/
+.x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .x-active > a, .x-navbar .desktop .x-nav > .current-menu-item > a {
+  box-shadow: inset 0 -4px 0 0 #FFFFFF !important;
+}
+.x-navbar .desktop .x-nav > li > a {
+  padding-top: 45px !important;
+}
+/*list-alumni*/
+.img-box {
+	text-align: center;
+}
+.img-box img  {
+	width: 100%;
+}
+.title-box h5 {
+	margin-top: 15px;
+	text-align: center;
+
+}
+.angkatan-box ,.kategori-box{
+	text-align: center;
+}
+.wrap-post-list:after{
+	content: '';
+	clear: both;
+}
+h5 a:hover{
+	text-decoration: none;
+}
+
+/*===========page-archive-style=============*/
+.archive-alumni-box img {
+	width: 100%;
+}
+
+.title-box h5 {
+	text-align: center;
+	margin-top: 5px;
+}
+.terms-angkatan {
+	text-align: center;
+}
+
+/*=================page-archive-business========*/
+.archive-box img {
+	width: 100%;
+}
+.title-box h5 {
+	margin-top: 15px;
+}
+/*===================single-page-alumni==============*/
+.image-single-alumni img {
+	width: 100%;
+	margin-top: 30px;
+}
+.title-single h4 {
+	margin-top: 0;
+}
+.label-domisili , .label-karir, .label-hoby, .label-biografi{
+	font-weight: 700;
+}
+.domisili-single, .karir-text, .hobi-text, .biografi-text {
+	margin-bottom: 10px;
+}
+.button-berikutnya {
+	margin-bottom: 10px;
+}
+/*===================single-page-business==============*/
+.image-single-business img {
+	width: 100%;
+}
+.row.single-bisnis{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ebebeb;
+}
+}
+.kategori-single h6 {
+	margin: 0;
+}
+
+/*==================mobile-page===========*/
+@media (max-width: 767px){
+	.post-list-home.row {
+		padding-top: 20px;
+	}
+
+	.post-list-home ul {
+		margin: 0;
+		margin-top: 30px;
+	}
+	.post-list-home .title-list h5 {
+		font-size: 1.8em;
+	}
+	.hentry .entry-wrap {
+		padding: 15px 0 !important;
+	}
+
+	.x-content-band {
+		margin: 0;
+	}
+}
+
+@media (min-width: 979px) and (max-widht: 1265px) {
+	
+}
+
+
+
+.x-navbar { 
+	background-color: #DD0000; 
+}
+.x-navbar .desktop .x-nav > li > a {
+	color: #fff;
+}
+.x-navbar .desktop .x-nav .current-menu-item > a {
+	color: #fff;
+}
+.x-navbar .desktop .x-nav > .current-menu-item > a > span {
+	border-color: rgba(111, 21, 21, 0.54);
+}
+
+
+.vc_general.vc_cta3 {
+	padding: 20px 25px;
+}
+.vc_cta3-container {
+	margin-bottom: 20px;
+}
+
+.x-btn-navbar {
+	color: #fff !important;
+	text-shadow: none;
+}
+.x-navbar .mobile .x-nav li a {
+	color: #FFFFFF;
+}
+
+.grid-wrapper {
+	border-bottom: 1px solid #EBEBEB;
+}
+.grid-wrapper:last-child {
+	border-bottom: none;
+}
+.grid-wrapper h4 {
+	margin-bottom: 40px;
+	position: relative;
+}
+.grid-wrapper h4:before {
+	content:"";
+	position: absolute;
+	bottom: -8px;
+	left: calc(50% - 40px);
+	width: 80px;
+	border-bottom: 4px solid #DD0000;
+}
+.grid-box {
+	min-height: 270px;
+	margin-bottom: 20px;
+}
+.grid-box .title-box h5 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.grid-box .title-box a {
+	text-decoration: none;
+}
+.grid-box img {
+}
+.grid-box img:hover {
+	-webkit-transition: scale(2) .3s;
+	-o-transition: scale(2) .3s;
+	transition: scale(2) .3s;
+}
+
+.wrap-post-list {
+	display: table;
+}
+
+.post-list-home li {
+	display: block;
+	padding: 20px 0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.post-list-home li:first-child {
+	padding-top: 0;
+}
+.img-list {
+
+	float: left;
+	width: 40%;
+	margin-right: 15px;
+}
+.title-list {
+	display: table;
+}
+.title-list h5 {
+	margin: 0;
+	font-size: 1.32em;
+}
+
+
+.page-heading {
+	background: #f6f6f6 url(./assets/img/gplaypattern.png) repeat;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.page-heading h2 {
+	margin: 0;
+}
+.page-heading .form-control {
+	margin-top: 7px;
+}
+.grid-wrapper h4 {
+	margin-bottom: 40px;
+	position: relative;
+	font-family: montserrat;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/*====================archive-berita=====================*/
+.x-recent-posts a.x-recent-post4 {
+	width: 46%;
+}
+.x-recent-posts a {
+	border: 0px solid #ddd; 
+	border: 0px solid rgba(0,0,0,0.15); 
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.075); 
+
+}
+/*======================single-berita====================*/
+.x-entry-share .x-share:hover{
+	background-color: #FFFFFF !important;
+	color: #FF0000 !important;
+}
+.hentry .entry-wrap {
+	padding: 36px 20px 20px 20px !important;
+}
+
+
+.slick-slider button {
+	position: absolute;
+	top: calc(50% - 20px);
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: transparent;
+}
+.slick-prev {
+	left: 20px;
+	background-image: url(./assets/img/large_left.png);
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	z-index: 100;
+}
+.slick-next {
+	right: 20px;
+	width: 40px;
+    height: 40px;
+    background-image: url(./assets/img/large_right.png);
+    background-repeat: no-repeat;
+}
+
+.entry-thumb:before, .pagination span.current, .flex-direction-nav a, .flex-control-nav a:hover, .flex-control-nav a.flex-active, .mejs-time-current, .x-dropcap, .x-skill-bar .bar, .x-pricing-column.featured h2, .h-comments-title small, .x-entry-share .x-share:hover, .x-highlight, .x-recent-posts .x-recent-posts-img:after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.kategori-single h6 {margin-top:0;}
+
+
+
+
+
+/*========================= */
+.x-navbar { 
+	background-color: #DD0000; 
+}
+.x-navbar .desktop .x-nav > li > a {
+	color: #fff;
+}
+.x-navbar .desktop .x-nav .current-menu-item > a {
+	color: #fff;
+}
+.x-navbar .desktop .x-nav > .current-menu-item > a > span {
+	border-color: rgba(111, 21, 21, 0.54);
+}
+
+.hentry .entry-wrap {
+	padding: 0 !important;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+}
+
+.vc_general.vc_cta3 {
+	padding: 20px 25px;
+}
+.vc_cta3-container {
+  margin-bottom: 20px;
+}
+
+.x-btn-navbar {
+	color: #fff !important;
+	text-shadow: none;
+}
+.x-navbar .mobile .x-nav li a {
+     color: #FFFFFF;
+}
+.x-section.page-heading { border-bottom:none;}
+.page-heading h2 {
+  font-family: "Montserrat","Helvetica Neue",Helvetica,sans-serif;
+  font-size: 32px;
+  margin: 6px 0;
+}
+.x-recent-posts a {
+   border: none !important;
+   box-shadow: none !important;
+   padding: 0;
+   background-color: transparent;
+}
+.x-recent-posts a.x-recent-post4 {
+  width: 46.2%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.x-recent-posts+.x-recent-posts {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.x-recent-posts a.x-recent-post1 {
+  width: 100%;
+  margin: 0;
+}
+.x-section .x-container {
+  width: 100% !important;
+}
+.x-recent-posts .h-recent-posts {
+  font-size: 21px;
+}
+.x-recent-posts .x-recent-posts-date, .date-time {font-size:12px; text-transform:uppercase; margin-top: 10px; color:  #7a7a7a;}
+.entry-featured {
+-webkit-box-shadow: none;
+box-shadow: none;
+border: none !important;
+}
+.entry-featured img { border-radius: 3px}
+.entry-thumb { background-color: transparent;}
+
+.x-navbar .desktop .x-nav > li > a:hover { color: #7F1111;}
+
+#x-content-band-3 .grid-wrapper{  padding-bottom: 20px
+}
+
+.container {
+  max-width: 97% !important;
+}
+
+.x-btn-navbar {
+	color: #fff !important;
+	text-shadow: none;
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.x-topbar .p-info { color: #b7b7b7}
+
+.x-colophon {
+  box-shadow: none; 
+}
+
+.x-content-band.business {
+	margin: 0 -30px;
+        border-top: 1px solid #F7F7F7;
+}
+
+.entry-thumb:before, .pagination span.current, .flex-direction-nav a, .flex-control-nav a:hover, .flex-control-nav a.flex-active, .mejs-time-current, .x-dropcap, .x-skill-bar .bar, .x-pricing-column.featured h2, .h-comments-title small, .x-entry-share .x-share:hover, .x-highlight, .x-recent-posts .x-recent-posts-img:after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
